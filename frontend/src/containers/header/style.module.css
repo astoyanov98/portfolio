@@ -1,0 +1,23 @@
+.container {
+    padding-top: 5vh;
+    background-color: #24263b;
+    color: white;
+    padding-bottom: 4vh;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.items {
+    margin-top: 3vh;
+}
+
+.items span:hover {
+    color: #ff5823;
+    cursor: pointer;
+}
