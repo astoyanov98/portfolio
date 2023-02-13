@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './button.tsx';
+import Button from './button.jsx';
 import './styles.css'
 import logo from '../images/logo.png'
 
