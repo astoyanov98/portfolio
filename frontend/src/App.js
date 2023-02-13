@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/header.tsx';
-import Home from './components/home.tsx'
+import Header from './components/header.jsx';
+import Home from './components/home.jsx'
+import About from './components/about';
+import RecentWork from './components/recentWork';
 
 function App() {
   return (
     <div classNameName="App">
       <Header />
       <Home />
+      <About/>
+      <RecentWork />
     </div>
   );
 }
