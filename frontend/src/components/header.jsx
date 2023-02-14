@@ -17,7 +17,7 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Button name="Say Hello"/>
+                            <Button link='/contact' name="Say Hello"/>
                         </li>
                     </ul>
                 </div>

@@ -90,4 +90,62 @@
 
 .containerRecentWork {
   text-align: center;
+  padding-top: 60px;
+}
+.containerRecentWork section {
+  padding-bottom: 30px;
+}
+
+.imgContainer {
+  position: relative;
+  height: 300px;
+  width: 350px;
+  padding: 0.75rem;
+}
+.imgContainer:hover .text {
+  opacity: 0.8;
+}
+.imgContainer img {
+  border-radius: 20px;
+  border: 1px solid #E6ECF8;
+}
+.imgContainer .text {
+  height: 280px;
+  width: 320px;
+  padding: 0.75rem;
+  position: absolute;
+  border-radius: 20px;
+  bottom: 10px;
+  left: 15px;
+  right: 0;
+  background-color: #141c3a;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.8s;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.projectContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonRecentWork {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.containerLine {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: -1;
 }/*# sourceMappingURL=styles.css.map */
