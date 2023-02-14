@@ -13,7 +13,7 @@ const About = () => {
                 <div className="box">
                     <div>
                         <img height='auto' width='50px' src={frontendImg} alt="" />
-                        <h1>Backend Developer</h1>
+                        <h1>Backend Knowledge</h1>
                         <section>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</section>
                         <p>Languages i speak:</p>
                         <section>Java, Javascript</section>
@@ -42,6 +42,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+           
         </>
         
     )

@@ -6,6 +6,8 @@ import employeeLogo from '../images/employeeLogo.jpg'
 import movieLogo from '../images/movieLogo.jpg'
 import todoLogo from '../images/todoLogo.jpg'
 import weatherLogo from '../images/weatherLogo.jpg'
+import Button from './button'
+import githubLogo from '../images/githubLogo.png'
 
 const RecentWork = () => {
     return(
@@ -21,6 +23,9 @@ const RecentWork = () => {
                 <Project img={movieLogo} url="https://github.com/astoyanov98/movie_collection" text="Movie Project"/>
                 <Project img={weatherLogo} url="https://github.com/astoyanov98/forecast" text="Weatger Project"/>
                 <Project img={GameLogo} url="https://github.com/astoyanov98/rock-paper-scissor" text="Rock Paper Scissor"/>
+            </div>
+            <div className="buttonRecentWork">
+                <Button img={githubLogo} name='More on Github!'/>
             </div>
         </div>
     )

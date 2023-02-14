@@ -129,4 +129,10 @@
 .projectContainer {
   display: flex;
   justify-content: center;
+}
+
+.buttonRecentWork {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
 }/*# sourceMappingURL=styles.css.map */
