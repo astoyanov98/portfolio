@@ -99,4 +99,47 @@
 
 .containerRecentWork {
     text-align: center;
+    padding-top: 60px;
+
+    section {
+        padding-bottom: 30px;
+    }
+}
+
+.imgContainer {
+    position: relative;
+    height: 300px;
+    width: 350px;
+    padding: 0.75rem;
+    &:hover .text{
+        opacity: 0.8;
+    }
+    
+    img {
+        border-radius: 20px;
+        border: 1px solid #E6ECF8;
+    }
+
+    .text {
+        height: 280px;
+        width: 320px;
+        padding: 0.75rem;
+        position: absolute;
+        border-radius: 20px;
+        bottom: 10px;
+        left: 15px;
+        right: 0;
+        background-color: #141c3a;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.8s;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.projectContainer {
+    display: flex;
+    justify-content: center;
+    
 }
