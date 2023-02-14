@@ -21,7 +21,7 @@ const RecentWork = () => {
             </div>
             <div className="projectContainer">
                 <Project img={movieLogo} url="https://github.com/astoyanov98/movie_collection" text="Movie Project"/>
-                <Project img={weatherLogo} url="https://github.com/astoyanov98/forecast" text="Weatger Project"/>
+                <Project img={weatherLogo} url="https://github.com/astoyanov98/forecast" text="Weather Project"/>
                 <Project img={GameLogo} url="https://github.com/astoyanov98/rock-paper-scissor" text="Rock Paper Scissor"/>
             </div>
             <div className="buttonRecentWork">

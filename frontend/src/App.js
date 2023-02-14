@@ -1,16 +1,17 @@
 import './App.css';
-import Header from './components/header.jsx';
-import Home from './components/home.jsx'
-import About from './components/about';
-import RecentWork from './components/recentWork';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
-    <div classNameName="App">
-      <Header />
-      <Home />
-      <About/>
-      <RecentWork />
+    <div className="App">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }
