@@ -1,6 +1,6 @@
 import React from "react";
-import './styles.css'
-import frontendImg from '../images/frontend.png'
+import './About.css'
+import frontendImg from '../../images/frontend.png'
 
 const About = () => {
     return(
