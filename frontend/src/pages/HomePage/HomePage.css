@@ -1,0 +1,22 @@
+.logo {
+  font-family: "Blackletter Shadow", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #6E07F3;
+}
+
+.position {
+  font-size: 3.4rem;
+  font-weight: 800;
+  color: #141c3a;
+}
+
+.sub-position {
+  font-family: "europa", sans-serif;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.containerForm {
+  display: flex;
+}/*# sourceMappingURL=HomePage.css.map */

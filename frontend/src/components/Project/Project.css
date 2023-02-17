@@ -1,0 +1,24 @@
+.imgContainer {
+  position: relative;
+}
+.imgContainer:hover .text {
+  opacity: 0.8;
+}
+.imgContainer img {
+  border-radius: 20px;
+  border: 1px solid #E6ECF8;
+}
+.imgContainer .text {
+  position: absolute;
+  border-radius: 20px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  background-color: #141c3a;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.8s;
+  font-size: 24px;
+  font-weight: 600;
+}/*# sourceMappingURL=Project.css.map */
