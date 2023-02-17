@@ -4,6 +4,7 @@ import Home from "../../components/Profile/Profile";
 import About from "../../components/About/About";
 import RecentWork from "../../components/RecentWork/RecentWork";
 import Companies from "../../components/Companies/Companies";
+import Footer from '../../components/Footer/Footer'
 import './HomePage.css'
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
             <About/>
             <RecentWork />
             <Companies/>
+            <Footer />
         </div>
     )
 }

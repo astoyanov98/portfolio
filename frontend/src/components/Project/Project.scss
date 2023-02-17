@@ -1,8 +1,5 @@
 .imgContainer {
     position: relative;
-    height: 300px;
-    width: 350px;
-    padding: 0.75rem;
     &:hover .text{
         opacity: 0.8;
     }
@@ -13,14 +10,12 @@
     }
 
     .text {
-        height: 280px;
-        width: 320px;
-        padding: 0.75rem;
         position: absolute;
         border-radius: 20px;
-        bottom: 10px;
-        left: 15px;
-        right: 0;
+        bottom: 2px;
+        left: 2px;
+        right: 2px;
+        top: 2px;
         background-color: #141c3a;
         color: white;
         opacity: 0;
