@@ -11,14 +11,17 @@ const Companies = () => {
             <h2 className="m-5">
                 I'm proud to have collaborated with some<br />awesome companies:
             </h2>
-            <div className="row justify-content-center">
-                <div className="col-md-2">
-                    <img src={IOLogo} alt="" />
-                </div>
-                <div  className="col-md-2">
-                    <img src={wedouLogo} alt="" />
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-4 col-md-2">
+                        <img src={IOLogo} alt="" />
+                    </div>
+                    <div  className="col-4 col-md-2">
+                        <img src={wedouLogo} alt="" />
+                    </div>
                 </div>
             </div>
+
         </div>
         
     )

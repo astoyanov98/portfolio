@@ -13,7 +13,7 @@ const Button = ({name, img, type, onClick}) => {
             className="button-container" 
             onClick={type !== 'submit' ? handleClick : undefined}
             type={type === 'submit' ? 'submit' : 'button'}>
-                {img && <img height='auto' width='30px' src={img}/>}
+                {img && <img height='auto' width='40px' src={img}/>}
                 {name}
         </button>
     )
