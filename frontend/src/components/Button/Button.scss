@@ -1,13 +1,17 @@
 .button-container {
     border-width: 2px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 27px;
     padding: 0.7rem 1.2rem;
     background-color: transparent;
     border: 2px solid #6E07F3;
     border-radius: 9999px;
     border-color: #6E07F3;
     color: #6E07F3;
+
+    @media (max-width: 800px) {
+        font-size: 20px;
+    }
 
     &:hover {
         transition: all .2s ease-in-out;

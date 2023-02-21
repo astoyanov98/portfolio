@@ -1,8 +1,14 @@
 .header {
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 34px;
 }
 
 .sub-header {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 400;
+}
+@media (max-width: 600px) {
+  .sub-header {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=Profile.css.map */

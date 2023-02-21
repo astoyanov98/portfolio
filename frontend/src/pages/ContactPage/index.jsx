@@ -1,18 +1,22 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Header from "../../components/Header/Header";
 import Avatar from '../../images/avatar.svg'
 import './ContactPage.css'
 import emailjs from '@emailjs/browser';
 import Button from "../../components/Button/button";
+import EmailSent from "../../components/EmailSent/EmailSent";
 
 const ContactPage = () => {
     const form = useRef();
+    const [isSent, setIsSent] = useState(false)
+    
     const sendEmail = (e) => {
         e.preventDefault();
         
         emailjs.sendForm('service_61xqyx7', 'template_8q24qqp', form.current, '2akiFvvmnerPCUKut')
             .then((result) => {
                 console.log(result.text);
+                setIsSent(true)
             }, (error) => {
                 console.log(error.text);
             });
@@ -21,7 +25,8 @@ const ContactPage = () => {
     return(
         <div>
             <Header />
-            <div className="containerLine">
+            {!isSent?
+            <><div className="containerLine">
                 <img height='auto' width='100px' src={Avatar} alt="" />
                 <hr className="line" />
             </div>
@@ -60,6 +65,9 @@ const ContactPage = () => {
                     </div>
                 </form>
             </div>
+            </>
+            :
+            <EmailSent />}
         </div>
     )
 }

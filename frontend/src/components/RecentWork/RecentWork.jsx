@@ -18,26 +18,28 @@ const RecentWork = () => {
         <div className="">
             <h1 className="pt-5">My Recent Work</h1>
             <section className="mb-5">Here are a few past design projects I've worked on. Want to see more? <a href="mailto:a.stoyanov98@abv.bg">Email me</a></section>
-            <div className="row justify-content-center">
-                <div className="col-md-2 mb-4">
-                    <Project img={todoLogo} url="https://github.com/astoyanov98/TodoApp" text='To Do Game'/>
-                </div>
-                <div className="col-md-2 mb-4">
-                    <Project img={gameOfFourLogo} url="https://github.com/astoyanov98/Game-of-four" text="Game Of Four"/>
-                </div>
-                <div className="col-md-2 mb-4">
-                    <Project img={employeeLogo} url="https://github.com/astoyanov98/Employees_project" text="Employee Project"/>
-                </div>
-            </div>
-            <div className="row justify-content-center">
-                <div className="col-md-2 mb-4">
-                        <Project img={movieLogo} url="https://github.com/astoyanov98/movie_collection" text="Movie Project"/>
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-7 col-sm-4 mb-4">
+                        <Project img={todoLogo} url="https://github.com/astoyanov98/TodoApp" text='To Do Game'/>
                     </div>
-                    <div className="col-md-2 mb-4">
-                        <Project img={weatherLogo} url="https://github.com/astoyanov98/forecast" text="Weather Project"/>
+                    <div className="col-7 col-sm-4 mb-4">
+                        <Project img={gameOfFourLogo} url="https://github.com/astoyanov98/Game-of-four" text="Game Of Four"/>
                     </div>
-                    <div className="col-md-2 mb-4">
-                        <Project img={GameLogo} url="https://github.com/astoyanov98/rock-paper-scissor" text="Rock Paper Scissor"/>
+                    <div className="col-7 col-sm-4 mb-4">
+                        <Project img={employeeLogo} url="https://github.com/astoyanov98/Employees_project" text="Employee Project"/>
+                    </div>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col-7 col-sm-4 mb-4">
+                            <Project img={movieLogo} url="https://github.com/astoyanov98/movie_collection" text="Movie Project"/>
+                        </div>
+                        <div className="col-7 col-sm-4 mb-4">
+                            <Project img={weatherLogo} url="https://github.com/astoyanov98/forecast" text="Weather Project"/>
+                        </div>
+                        <div className="col-7 col-sm-4 mb-4">
+                            <Project img={GameLogo} url="https://github.com/astoyanov98/rock-paper-scissor" text="Rock Paper Scissor"/>
+                    </div>
                 </div>
             </div>
             <div className="mt-5">

@@ -1,12 +1,17 @@
 .containerCustom {
-    text-align: center;
-    padding: 100px;
+    // text-align: center;
+    padding: 50px 20px;
     background-color: #6E07F3;
     color: white;
     
     h1 {
         font-size: 2rem;
         font-family: "eurostile", sans-serif;
+
+        @media (max-width: 440px) {
+            width: 100%;
+            font-size: 1.5rem;
+        }
     }
 
     section {
@@ -15,23 +20,35 @@
         font-size: 1.25rem;
         font-family: "europa", sans-serif;
         line-height: 1.5;
+
+        @media (max-width: 800px) {
+            width: 100%;
+            margin: 0 auto;
+            font-size: 1.25rem;
+            font-family: "europa", sans-serif;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 440px) {
+            width: 100%;
+            font-size: 1rem;
+        }
     }
 }
 
 .containerSpecialities { 
-    display: flex;
-    justify-content: center;
     margin-top: -3rem;
     border-radius: 20px;
 
+    section {
+        font-size: 18px;
+    }
+
     .box {
-        padding: 70px 45px;
-        text-align: center;
+        padding: 75px 30px;
         border: 1px solid #E6ECF8;
         background-color: white;
         color: #141c3a;
-        max-width: 400px;
-        flex: 1;
     } 
 
     .box:first-child {
@@ -45,7 +62,7 @@
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         line-height: 110px;
     }
 
