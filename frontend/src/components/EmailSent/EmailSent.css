@@ -1,5 +1,10 @@
 .emailSentContainer {
-    box-shadow: 1px 1px 1px 1px rgba(1,1,1,0.5);
-    width: 40%;
-    padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.5);
+  width: 40%;
+  padding: 20px;
 }
+@media (max-width: 550px) {
+  .emailSentContainer {
+    width: 100%;
+  }
+}/*# sourceMappingURL=EmailSent.css.map */
