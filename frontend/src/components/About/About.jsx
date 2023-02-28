@@ -22,18 +22,18 @@ const About = () => {
                         <img height='auto' width='50px' src={frontendImg} alt="" />
                         <h1>Backend Knowledge</h1>
                         <section>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</section>
-                        <p>Languages i speak:</p>
+                        <p>Languages I know:</p>
                         <section>Java, Javascript</section>
-                        <p>Libraries and databases i use:</p>
+                        <p>Libraries and databases I use:</p>
                         <section>Express, MongoDB, PostgreSQL, MySQL</section>
                     </div>
                     <div className="col-12 col-lg-4 box">
                         <img height='auto' width='50px' src={frontendImg} alt="" />
                         <h1>Frontend Developer</h1>
                         <section>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</section>
-                        <p>Languages i speak:</p>
+                        <p>Languages I know:</p>
                         <section>HTML, CSS, Javascript</section>
-                        <p>Libraries i use:</p>
+                        <p>Libraries I use:</p>
                         <section>React, Redux, Angular, Typescript, SASS, Bootstrap</section>
                     </div>
                     <div className="col-12 col-lg-4 box">
